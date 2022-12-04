@@ -11,6 +11,6 @@ public class Sample {
         WebDriver driver;
         WebDriverManager.operadriver().setup();
         driver=new OperaDriver();
-        driver.get("https://www.google.com");
+        driver.get("https://www.gmail.com");
     }
 }
