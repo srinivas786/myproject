@@ -12,5 +12,6 @@ public class Sample {
         WebDriverManager.operadriver().setup();
         driver=new OperaDriver();
         driver.get("https://www.gmail.com");
+        driver.manage().window().maximize();
     }
 }
